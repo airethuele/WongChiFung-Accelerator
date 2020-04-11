@@ -7,14 +7,18 @@
         canvas {
             border: 1px #114514 solid
         }
+        #box{
+            margin:0 auto;
+            width:705px
+        }
     </style>
 </head>
 
 <body>
-    <input id="img_input" type="file" accept="image/*" />
-    <label for="img_input"></label>
-    <div class="preview_box"></div>
-    <canvas width="701px" height="701px"></canvas>
+    <div id="box">
+        <input id="img_input" type="file" accept="image/*" />
+        <canvas width="701px" height="701px"></canvas>
+    </div>
     <script src="main.js"></script>
 </body>
 
